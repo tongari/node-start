@@ -84,10 +84,14 @@ localhost:3000
 drop database bulletin_board;
 ```
 
--------
+MySQLからログアウト
+```bash
+exit;
+```
+
 MySQLを停止
 ```bash
-mysql.server start
+mysql.server stop
 ```
 
 
